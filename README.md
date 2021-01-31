@@ -169,10 +169,6 @@ export function Example() {
 }
 ```
 
-## Advanced example
-
-See [`App.tsx`](https://github.com/FaridSafi/react-native-gifted-chat/blob/master/App.tsx) for a working demo!
-
 ## "Slack" example
 
 See the files in [`example-slack-message`](example-slack-message) for an example of how to override the default UI to make something that looks more like Slack -- with usernames displayed and all messages on the left.
@@ -232,10 +228,6 @@ export interface IMessage {
   // Any additional custom parameters are passed through
 }
 ```
-
-> e.g. Chat Message with Quick Reply options
-
-See PR [#1211](https://github.com/FaridSafi/react-native-gifted-chat/pull/1211)
 
 ```ts
 interface Reply {
@@ -497,34 +489,11 @@ module.exports = function override(config, env) {
 
 > Another example with **Gatsby** : [xcarpentier/clean-archi-boilerplate](https://github.com/xcarpentier/clean-archi-boilerplate/tree/develop/apps/web)
 
-## Questions
 
-- [How can I set Bubble color for each user?](https://github.com/FaridSafi/react-native-gifted-chat/issues/672)
-- [How can I pass style props to InputToolbar design and customize its color and other styles properties?](https://github.com/FaridSafi/react-native-gifted-chat/issues/662)
-- [How can I change the color of the message box?](https://github.com/FaridSafi/react-native-gifted-chat/issues/640)
-- [Is there a way to manually dismiss the keyboard?](https://github.com/FaridSafi/react-native-gifted-chat/issues/647)
-- [I want to implement a popover that pops right after clicking on a specific avatar,
-  what is the best implementation in this case and how?](https://github.com/FaridSafi/react-native-gifted-chat/issues/660)
-- [Why TextInput is hidden on Android?](https://github.com/FaridSafi/react-native-gifted-chat/issues/680#issuecomment-359699364)
-- [How to use renderLoading?](https://github.com/FaridSafi/react-native-gifted-chat/issues/298)
-- [Can I use MySql to save the message?](https://github.com/FaridSafi/react-native-gifted-chat/issues/738)
 
-## License
 
-- [MIT](LICENSE)
 
-## Author
 
-Feel free to ask me questions on Twitter [@FaridSafi](https://www.twitter.com/FaridSafi)! or [@xcapetir](https://www.twitter.com/xcapetir)!
 
-## Contributors
 
-- Kevin Cooper [cooperka](https://github.com/cooperka)
-- Kfir Golan [kfiroo](https://github.com/kfiroo)
-- Bruno Cascio [brunocascio](https://github.com/brunocascio)
-- Xavier Carpentier [xcarpentier](https://github.com/xcarpentier)
-- [more](https://github.com/FaridSafi/react-native-gifted-chat/graphs/contributors)
 
-## Hire an expert!
-
-Looking for a ReactNative freelance expert with more than 14 years of experience? Contact Xavier from his [website](https://xaviercarpentier.com)!
